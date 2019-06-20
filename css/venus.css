@@ -1,0 +1,222 @@
+/** IMPORTACION DE FUENTES DE GOOGLE FONTS **/
+@import url("https://fonts.googleapis.com/css?family=Hind+Siliguri|Raleway&display=swap");
+
+/** ALTERNATIVA {font-family: 'Aguafina Script', sans-serif;}**/
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  background-color: #f7f7f7;
+}
+.menu-link {
+  color: black;
+}
+.menu-link:hover {
+  color: #ff59f9;
+}
+
+.activo {
+  text-decoration: underline;
+  color: #ff59f9;
+}
+.venus {
+  font-family: "Aguafina Script", sans-serif;
+  font-size: 40px;
+  color: black;
+  cursor: default;
+}
+.venus:hover {
+  color: black;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgb(0, 0, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.bg-dark {
+  background-color: black !important;
+}
+
+.link-icon {
+  color: white;
+}
+.link-icon:hover {
+  color: #b6c9cc;
+}
+
+@media (min-width: 991.98px) {
+  html {
+    font-size: 100%;
+  }
+}
+@media (max-width: 991.98px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 75%;
+  }
+  .mt-4 {
+    margin-top: 0.7rem !important;
+  }
+}
+.h1foot{
+font-weight: bold;
+font-size: 16px;
+}
+.foot{
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.borderfoot{
+  border-right: 4px dotted #dee2e6
+}
+
+.w-80{
+  width: 80%;
+}
+
+.fwnew{
+  max-width: 100%;
+  height: auto;
+}
+
+
+/** Galeria **/
+
+.galeria {
+  vertical-align: middle;
+}
+
+.container1 {
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 70%;
+  width: auto;
+  padding: 16px;
+  margin-top: -200px;
+  color: Black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+    color:aliceblue;
+}
+
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column1 {
+  float: left;
+  width: 16.66%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active1,
+.demo:hover {
+  opacity: 1;
+}
+/** barra Social Pegada **/
+#icon-bar {
+  display: none;
+  position: fixed;
+  top: 20%;
+  transform: translateY(-10%);
+    z-index: 99;
+}
+#icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 15px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+#icon-bar a:hover {
+  background-color: #000;
+}
+.fcbk {
+  background: #3B5998;
+  color: white;
+}
+.itgm {
+  background: #4d4d4d;
+  color: white;
+}
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+#subir {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #1a1a1a;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  transition-delay: 1s;
+}
+
+#subir:hover {
+  background-color: #555;
+    transition-duration: 1s;
+}
